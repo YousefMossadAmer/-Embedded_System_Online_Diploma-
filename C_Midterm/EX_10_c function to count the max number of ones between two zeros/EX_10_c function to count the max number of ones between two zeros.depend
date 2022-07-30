@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1659188515 source:d:\diploma embeded system\mid 1\code\ex_10_c function to count the max number of ones between two zeros\main.c
+	<stdio.h>
+	<string.h>
+

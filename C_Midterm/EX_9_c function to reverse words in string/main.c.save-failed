@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/*void  r_array(char arr[],int siez);
+int main()
+{
+    int siez, i;
+    char arr[100];
+    printf("enter string : \n");
+    gets(arr);
+    siez=strlen(arr);
+    r_array(arr,siez);
+    printf("string after  reverse :\n");
+     for(i=0; i<siez; i++)
+        {
+            printf("%c",arr[i]);
+        }
+}
+void r_array(char arr[],int siez)
+{
+    int i,j;
+    char temp;
+    for (i=0,j=siez-1;i<siez/2;i++,j--)
+    {
+        temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+    }
+}*/
+int main()
+{
+    int siez, i;
+    char arr[100];
+    printf("enter string : \n");
+    gets(arr);
+    siez=strlen(arr);
+    r_array(arr,siez);
+   // printf("string after  reverse :\n");
+    // for(i=0; i<siez; i++)
+      //  {
+      //      printf("%c",arr[i]);
+      //  }
+}
+void r_array(char arr[],int siez)
+{
+    int count;
+    for ( int i=siez-1;i>=0;i--)
+    {
+        if (arr[i]==' ')
+        {
+            for(int j=siez-count; j<siez; j++)
+            {
+                printf("%c",arr[j]);
+            }
+        }
+        else
+            endstring[j]=arr[i];
+          count ++;
+
+    }
+}
