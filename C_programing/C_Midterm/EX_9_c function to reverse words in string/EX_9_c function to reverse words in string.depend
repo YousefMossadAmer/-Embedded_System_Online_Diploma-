@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1659186369 source:d:\diploma embeded system\mid 1\code\ex_9_c function to reverse words in string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

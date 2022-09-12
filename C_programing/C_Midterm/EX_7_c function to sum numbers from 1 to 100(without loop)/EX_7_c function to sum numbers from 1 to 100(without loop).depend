@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1659025652 source:d:\diploma embeded system\mid 1\code\ex_7_c function to sum numbers from 1 to 100(without loop)\main.c
+	<stdio.h>
+	<stdlib.h>
+
